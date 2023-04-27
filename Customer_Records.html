@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./customer_records.css">
+
+    <title>Customer Records</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./images/logo_white.png">
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="Home.html" class="active">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Booking Records</h3>
+                </a>
+                <a href="Rooms.html">
+                    <span class="material-icons-sharp">villa</span>
+                    <h3>Rooms</h3>
+                </a>
+                <a href="RoomTypes.html">
+                    <span class="material-icons-sharp">library_books</span>
+                    <h3>Room Types</h3>
+                </a>
+                <a href="Customer_Records.html">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>Customer Details</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End Of aside -->
+
+        <main>
+
+            <div class="navbar">
+                <div class="wrapper">
+                    <h1>Customer Records</h1>
+                    <div class="search">
+                        <input type="text" placeholder="Search..."/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Contact Number</th>
+                            <th>Email Address</th>
+                            <th>Address</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="room_type">Ngawang</td>
+                            <td data-label="room_no">17753234</td>
+                            <td data-label="amount">ngawangyeshi@gmail.com</td>
+                            <td data-label="des">New York, USA</td>
+                            <td data-label="action">
+                                <button class="btn3">
+                                  <i class="material-icons">delete</i>
+                                </button>
+                                <button class="btn3">
+                                  <i class="material-icons">edit</i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="room_type">Kezang</td>
+                            <td data-label="room_no">1776812</td>
+                            <td data-label="amount">kezang@gmail.com</td>
+                            <td data-label="des">Thimphu, Bhutan</td>
+                            <td data-label="action">
+                                <button class="btn3">
+                                  <i class="material-icons">delete</i>
+                                </button>
+                                <button class="btn3">
+                                  <i class="material-icons">edit</i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="room_type">Thinley</td>
+                            <td data-label="room_no">7711234</td>
+                            <td data-label="amount">thinley@gmail.com</td>
+                            <td data-label="des">Daka, Bangladesh</td>
+                            <td data-label="action">
+                                <button class="btn3">
+                                  <i class="material-icons">delete</i>
+                                </button>
+                                <button class="btn3">
+                                  <i class="material-icons">edit</i>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-label="room_type">Sonam</td>
+                            <td data-label="room_no">77918234</td>
+                            <td data-label="amount">sonam@gmail.com</td>
+                            <td data-label="des">Seoul, South Korea</td>
+                            <td data-label="action">
+                                <button class="btn3">
+                                  <i class="material-icons">delete</i>
+                                </button>
+                                <button class="btn3">
+                                  <i class="material-icons">edit</i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+
+        <!------------ End Of Main ------------>
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <!-- <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Ngawang</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./images/admin.jpg">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./home.js"></script>
+
+    </div>
+</body>
+</html>

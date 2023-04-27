@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./newroomtype.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./images/logo_white.png">
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="Home.html" class="active">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Booking Records</h3>
+                </a>
+                <a href="Rooms.html">
+                    <span class="material-icons-sharp">villa</span>
+                    <h3>Room</h3>
+                </a>
+                <a href="RoomTypes.html">
+                    <span class="material-icons-sharp">library_books</span>
+                    <h3>Room Types</h3>
+                </a>
+                <a href="Customer_Records.html">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>Customer Details</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+
+        <main>
+            <h1>Add New Room Types</h1>
+                <div class="wrapper">
+                    <div class="form">
+                        <div class="input_field">
+                            <label>
+                                Enter Room Type:
+                            </label>
+                            <input name="text" placeholder="" class="" id="">
+                        </div>
+                        <div class="input_field">
+                            <label>
+                                Select Room Pictures:
+                            </label>
+                            <input type="file" name="upload" placeholder="" class="picture" id="">
+                        </div>
+                        <div class="input_field">
+                            <label>
+                                Description A:
+                            </label>
+                            <textarea name="text" placeholder="Brief Description" class="" id=""></textarea>
+                        </div>
+                        <div class="input_field">
+                            <label>
+                                Description B:
+                            </label><br>
+                            <textarea name="text" placeholder="Brief Description" class="" id=""></textarea>
+                        </div>
+                        <div class="input_field">
+                            <label>
+                                Aminities:
+                            </label>
+                            <input name="text" placeholder="" class="" id="">
+                        </div>
+                        <div class="input_field">
+                            <label>
+                                Enter Child Rate: 
+                            </label>
+                            <input name="text" placeholder="" class="" id="">
+                        </div>
+                        <div class="input_field">
+                            <label>
+                                Enter Adult Rate:
+                            </label>
+                            <input name="text" placeholder="" class="" id="">
+                        </div>
+                        <div class="input_field">
+                            <label>
+                                Tax/Fees:
+                            </label>
+                            <input name="text" placeholder="" class="" id="">
+                        </div>
+                        <div class="btn2">
+                            <button>Add Room</button>
+                        </div>
+                    </div>
+                </div>
+        </main>
+
+        <!------------ End Of Main ------------>
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <!-- <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Ngawang</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./images/admin.jpg">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./home.js"></script>
+
+    </div>
+</body>
+</html>
